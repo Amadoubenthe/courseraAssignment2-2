@@ -1,0 +1,23 @@
+#para1{
+	color: #000000;
+}
+.nav-color{
+	background-color: #999999;
+}
+#nav-list{
+	background-color: #FFF;
+}
+.row{
+	margin-bottom: 15px;
+}
+
+.row > div{
+	border: 15px solid #FFF;
+	background-color: #999999;
+}
+/* Cacher le menu deroulant pour les grands ecrans */
+@media (min-width: 767px ) and (max-width: 1366px){
+	.derouler{
+		display: none;
+	}
+}
